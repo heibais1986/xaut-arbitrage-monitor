@@ -1,0 +1,31 @@
+{
+  "name": "xaut-arbitrage-monitor",
+  "version": "1.0.0",
+  "description": "XAUT CEX-DEX Arbitrage Price Monitor",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "monitor": "node src/monitor.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "arbitrage",
+    "xaut",
+    "tether-gold",
+    "defi",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "axios": "^1.6.5",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  }
+}
